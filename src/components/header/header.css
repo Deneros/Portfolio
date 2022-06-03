@@ -1,0 +1,58 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container-profile{
+    position: relative;
+    height: 22rem;
+    width: 19rem;
+    /* border: 0.5px solid var(--color-primary); */
+    background-color: var(--color-secundary);
+    box-shadow: 5px 5px var(--color-dark);
+    border-radius: 2%;
+}
+
+.img-profile{
+    position: absolute;
+    left: calc(50% - 125px);
+    top: calc(0% - 125px);
+    border-radius: 50%;
+    height: 15.625rem;
+    width: 15.625rem;
+    /* border: 1px solid var(--color-primary); */
+}
+
+.container-profile h1{
+    position: absolute;
+    top: 40%;
+    left: calc(100%/4);
+    font-weight: 300;
+    color: white;
+    z-index: 1;
+}
+
+.container-profile h3{
+    position: absolute;
+    top: 50%;
+    left: calc(100%/3.5);
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: white;
+    z-index: 1;
+}
+
+.container-profile a.btn{
+    position: absolute;
+    left: 25%;
+    top: 70%;
+}
